@@ -8,6 +8,10 @@ spring.jpa.database-platform: org.hibernate.dialect.MySQL8Dialect
 
 #jms.broker.url: tcp://localhost:61616
 
+kafka:
+  bootstrap-servers: localhost:29092
+  topic: incoming_order_queue
+
 eureka:
   client:
     service-url:
